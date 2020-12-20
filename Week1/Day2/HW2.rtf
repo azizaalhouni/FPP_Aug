@@ -1,0 +1,82 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1) 
+\f1 Consider the following if\'85then logic:\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0                  if(age > 65) socialSecurityStatus = "eligible";\
+                  else socialSecurityStatus = "ineligible";\
+\
+Answer :\
+String socialSecurityStatus = (age > 65)?\'94eligible\'94: \'93ineligible\'94; \
+\
+2) Suppose a String s is initialized by\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0        String s = "a friendly face";\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0                 a. Compute the value of the expression\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0          s.charAt(2);\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0                 b. What is the value of\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0          s.length()?\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0                 c. What is the value of\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0          s.substring(2,9)?\
+         s.substring(4)?
+\f1\fs24 \
+Answer:\
+A) \'93f\'94\
+B)15\
+C)\'94friendly\'94\
+   \'93iendly face\'94\
+\
+3) Write a Java expression that computes each of the following:\
+               a. Given the radius 
+\f2\fs22 r 
+\f1\fs24 of a circle, compute the area of the circle, and store it in a\
+                   variable 
+\f2\fs22 A
+\f1\fs24 .\
+               b. Given the length 
+\f2\fs22 len 
+\f1\fs24 and width 
+\f2\fs22 wid 
+\f1\fs24 of a rectangle, compute the length of the\
+                   diagonal of the rectangle, and store it in a variable 
+\f2\fs22 diag
+\f1\fs24 .\
+\
+   Answer:\
+\
+a)  float a = 3.4*Math.pow(r,2); or float a = Math.pi * Math.pow(r,2);\
+b) float  diag = Math.sqrt(Math.pow(len,2) +Math.pow( wid ,2))\
+\
+4) You are reviewing some old Java programs in your company's IT department and you\
+               read the following assignment statement in some abandoned code:\
+
+\f2\fs22        int a = (b = 5);\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0                Is the statement legal (i.e. would it compile)? If so, what value is assigned to the\
+               variable 
+\f2\fs22 a
+\f1\fs24 ? Explain.\
+Answer:\
+  If we declared b before that as an int, it would compile and the value would assigned to a is 5.\
+}
